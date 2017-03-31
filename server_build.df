@@ -1,0 +1,6 @@
+FROM centos:latest
+COPY ["python_server.py", "/server/"]
+ENTRYPOINT ["python","-m","SimpleHTTPServer","8000","&"]
+#RUN ["cd","/server"]
+ENTRYPOINT ["python","/server/python_server.py", "&"]
+

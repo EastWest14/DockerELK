@@ -1,8 +1,8 @@
 import time
 import BaseHTTPServer
-  
+import socket 
 
-HOST_NAME = 'localhost'
+HOST_NAME = socket.gethostname()
 PORT_NUMBER = 8000
   
 class MyHandler(BaseHTTPServer.BaseHTTPRequestHandler):
