@@ -1,0 +1,2 @@
+FROM docker.elastic.co/logstash/logstash:5.1.2
+COPY ["connector.conf", "/usr/share/logstash/pipeline/"]
