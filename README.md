@@ -1,3 +1,3 @@
 # DockerELK
 
-![Alt text](DockerELK_V1.png?raw=true "Title")
+![Alt text](DockerELK_V2.png?raw=true "Title")
