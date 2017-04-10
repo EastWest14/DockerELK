@@ -1,0 +1,3 @@
+FROM scratch
+COPY ["data/", "/usr/share/elasticsearch/data"]
+CMD ["sleep", "100"]
